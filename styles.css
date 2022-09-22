@@ -20,13 +20,14 @@ form {
 }
 
 h1 { 
- font-weight: 900; 
-  font-size: 384px;
+ 
+  
   padding: 10px;
   margin: 20px; 
  } 
 #city {
 font-size: 84px;
+font-weight: 700; 
 }
   
  
@@ -72,6 +73,14 @@ ul {
   font-size: 19px;   
 } 
  
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
+.weather-forecast-temperatures {
+  font-size: 23px;
+  }
 /*-
  hr {
   line-clamp: ;
