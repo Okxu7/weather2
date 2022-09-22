@@ -1,33 +1,38 @@
-/*body {
+body {
 
-
- }
-
- -  --*/
+  background-image: url(https://abrakadabra.fun/uploads/posts/2021-12/1639922134_55-abrakadabra-fun-p-fon-dlya-pogodi-58.jpg);
+}
+/* -font-family: 'Poppins', sans-serif;  --*/
  main {
-  background: linear-gradient(#1438ef, #e6f111);
+ 
+ background: linear-gradient(#1438ef, yellow); 
   max-width: 900px;
   margin: 0px auto;
-  padding:  30px  30px  0px 120px;  
+  padding:  30px  10px  0px 100px;  
   margin-bottom: 0px;
   border: 1px solid rgb(98, 207, 229);
   border-radius:  65px; 
   font-size: 22px;
+  color: rgb(26, 2, 62);
+  font-style: italic;
+  opacity: 0.8;
 }
+
 form {
   max-width: 50%;
   margin-left: 40px;
 }
 
-h1 { 
- 
-  
+h1 {   
   padding: 10px;
   margin: 20px; 
  } 
+
+
 #city {
 font-size: 84px;
 font-weight: 700; 
+ color: yellow;
 }
   
  
@@ -39,17 +44,29 @@ text-transform: capitalize;
 text-transform: capitalize;
 } 
  
- 
+ .temperature {
+    position: relative;
+  top:  30px;
+  left:  0px;
+}
+
  #temperature { 
   font-weight: 600;
   font-size: 94px; 
+  transform:  translate(24px, 0px);
 }
 
 .units {
   font-weight: 600;
   font-size: 24px;
+ color: rgb(26, 2, 62);
+ }
+
+.weather-description {
+  font-weight: 600;
+  font-size: 24px; 
+}
  
-} 
 
 ul {
   list-style: none;
@@ -58,7 +75,9 @@ ul {
 .weather-forecast {
   margin-top: 20px;
   text-align: center;
-  color: #000;
+  font-weight: bold;
+  font-size: 25px;
+ 
 }
 
 [href^="#"] {
@@ -69,23 +88,24 @@ ul {
 [href*=".git"] {
   text-decoration:  none; 
 }
-.kjk { 
-  font-size: 19px;   
-} 
- 
 
 .weather-forecast-temperature-min {
-  opacity: 0.5;
+  opacity: 0.6;
 }
+
+
+
 
 .weather-forecast-temperatures {
   font-size: 23px;
   }
-/*-
- hr {
-  line-clamp: ;
-}
 
+ 
+
+.sourse { 
+  font-size: 19px;   
+}
+/*-
  conteiner { 
 
 margin:  0px  auto;  
