@@ -6,12 +6,12 @@ body {
  main {
  
  background: linear-gradient(#1438ef, yellow); 
-  max-width: 900px;
-  margin: 0px auto;
+  max-width: 1000px;
+  margin: 80px auto;
   padding:  30px  10px  0px 100px;  
   margin-bottom: 0px;
-  border: 1px solid rgb(98, 207, 229);
-  border-radius:  65px; 
+  border: 0px solid rgb(98, 207, 229);
+  border-radius:  260px; 
   font-size: 22px;
   color: rgb(26, 2, 62);
   font-style: italic;
@@ -21,7 +21,9 @@ body {
 form {
   max-width: 50%;
   margin-left: 40px;
+   margin: 10px 170px;   
 }
+ 
 
 h1 {   
   padding: 10px;
@@ -103,7 +105,8 @@ ul {
  
 
 .sourse { 
-  font-size: 19px;   
+  font-size: 19px; 
+  margin: 90px;  
 }
 /*-
  conteiner { 
