@@ -21,7 +21,9 @@ body {
 form {
   max-width: 50%;
   margin-left: 40px;
-   margin: 10px 170px;   
+   margin: 10px 170px; 
+   
+   color: rgb(228, 13, 13);
 }
  
 
